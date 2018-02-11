@@ -230,28 +230,6 @@ def qname():
     textmsg = random.choice(namere)
     global textmsg
 
-#Sends a text to so someone through the email you gave Zion
-def qtext():
-    textmsg = 'What provider does the recipient have?'
-    global textmsg
-    provider = input().lower()
-    if provider == 'verizon' or provider == 'verizon wireless' or provider == 'vw':
-        prov = '@vtext.com'
-    if provider == 'at&t' or provider == 'at and t' or provider == 'a t & t':
-        prov = '@txt.att.net' 
-    the_reply()
-    textmsg = 'Type your message to be emailed!'
-    global textmsg
-    msg = input()
-    the_reply()
-    textmsg = 'What number would you like to send this to? '
-    global textmsg
-    the_reply()
-    num = input()
-    server.sendmail("zionpersonalai@gmail.com", num + prov, msg)
-    textmsg = 'Message "' + (msg) + '" has been sent!'
-    global textmsg
-
 #Zion tells the user their name
 def qwhoami():
     textmsg = "You're " + str(firstname) + "!"
