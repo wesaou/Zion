@@ -1,5 +1,5 @@
 # Zion
-The lightweight personal assistant that you can text!
+The lightweight python personal assistant that you can text!
 
 ## Requirements
 
