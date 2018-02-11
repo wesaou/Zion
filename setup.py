@@ -7,14 +7,15 @@ import re
 
 
 GR = '\033[92m'
+BL = '\033[94m'
 FA = '\033[91m'
 BD = '\033[1m'
 EC = '\033[0m'
 nl = '\n'
 
 #Installs Beautiful Soup for webscraping 
-print(GR+BD+'[Installing Beautiful Soup...]'+EC) 
-ibs = subprocess.getoutput('sudo apt-get install -y python-bs4')
+print(GR+BD+'[Installing Beautiful Soup...]'+BL) 
+ibs = subprocess.call('sudo apt-get install -y python3-bs4', shell=True)
 wr = open('user.txt','w')
 
 #Stores the user's name to a text file, for later use by Zion when addressing the user
@@ -64,4 +65,5 @@ else:
 #Writes data to user.txt
 wr.write(name+nl+eaddr+nl+epass+nl+phnum+prov+nl)
 wr.close()
+ex = subprocess.call('sudo chmod +x Zion.py', shell=True)
 print(GR+BD+'[Done!]')
