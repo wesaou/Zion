@@ -13,5 +13,7 @@ The lightweight personal assistant that you can text!
 
 sudo python3 setup.py
 
+sudo python3 Zion.py
+
 # About
 Zion is my first Github project, and my first python project in general. Feel free to leave feedback, as I have been scripting for about a year, and I am looking for contructive criticism. If this is practical, I hope to see it go somewhere, as I am no where near to close to done with it. I hope to add many new convientient features to it, such as home automation.
