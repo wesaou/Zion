@@ -5,7 +5,7 @@ The lightweight personal assistant that you can text!
 
 * Python 3.x
 * A new gmail, that only Zion will use, as it will read the emails in the inbox, and will get confused by anything else
-* A valid phone number, with Verizon, AT&T, Sprint, Metro PCS, or US Cellular as a carrier (only tested with Verizon)
+* A valid phone number, with Verizon, AT&T, Sprint, Metro PCS, or US Cellular as a carrier (only tested with Verizon) to communicate with Zion
 * A host machine that is running Linux, with internet access (Raspberry Pi is perfect)
 
 ## Installation
