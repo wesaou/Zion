@@ -16,7 +16,7 @@ sudo python3 setup.py
 
 To Run Zion:
 ```
-sudo python3 Zion.py
+sudo ./Zion.py
 ```
 
 ## About
