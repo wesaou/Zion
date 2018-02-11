@@ -7,6 +7,8 @@ The lightweight personal assistant that you can text!
 
 -A valid phone number, with Verizon, AT&T, Sprint, Metro PCS, or US Cellular as a carrier (only tested with Verizon)
 
+-A host machine that is running Linux, with internet access (Raspberry Pi is perfect)
+
 # Installation
 
 sudo python3 setup.py
