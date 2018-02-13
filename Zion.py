@@ -56,7 +56,7 @@ def prev_reply():
 def retrieveemail():
     try:
         mail = imaplib.IMAP4_SSL('imap.gmail.com')
-        mail.login('zionpersonalai@gmail.com', 'Zi0nAi4478')
+        mail.login(eaddr, epass)
         mail.list()
         mail.select("inbox")
         result, data = mail.search(None, "ALL")
